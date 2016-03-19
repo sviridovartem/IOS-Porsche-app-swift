@@ -1,0 +1,44 @@
+id,identifier,power,acceleration,top_speed,fuel,price
+1,718 Boxter,300hp,4.9,275,6.9,43661
+2,718 Boxter S,350hp,4.6,285,8.1,50695
+3,Cayman,275hp,5.7,266,8.4,39694
+4,Cayman Black Edition,275hp,5.7,266,8.4,45989
+5,Cayman S,325hp,5.0,283,9.4,48783
+6,Cayman GTS,340hp,4.9,285,9.0,55397
+7,Cayman GT4,385hp,4.4,295,10.3,64451
+8,911 Carrera,375hp,4.6,295,8.3,76412
+9,911 Carrera S,420hp,4.3,308,8.7,85857
+10,911 Carrera Cabriolet,370hp,4.8,292,8.5,85253
+11,911 Carrera S Cabriolet,420hp,4.5,306,8.8,94857
+12,911 Carrera 4,370hp,4.5,292,8.7,81398
+13,911 Carrera 4 Cabriolet,370hp,4.7,289,8.9,90240
+14,911 Carrera 4S,420hp,4.2,305,8.9,90843
+15,911 Carrera 4S Cabriolet,420hp,4.4,303,9.0,99684
+16,911 Targa 4,370hp,4.7,289,8.9,90240
+17,911 Targa 4S,420hp,4.4,303,9.0,99684
+18,911 Turbo,540hp,3.0,320,9.1,126925
+19,911 Turbo S,580hp,3.9,330,9.1,145773
+20,911 Turbo Cabriolet,540hp,3.1,320,9.3,135766
+21,911 Turbo S Cabriolet,580hp,3.0,330,9.3,154614
+22,911 R,500hp,3.8,323,13.3,136901
+23,911 GT3 RS,500hp,3.3,310,12.7,131296
+24,Panamera,310hp,6.8,259,8.5,63913
+25,Panamera 4,310hp,6.1,257,8.8,67474
+26,Panamera S,420hp,5.1,287,8.9,82439
+27,Panamera S E-Hybrid,416hp,5.5,270,3.1,82439
+28,Panamera 4S,420hp,4.8,286,9.1,86080
+29,Panamera GTS,440hp,4.4,288,10.3,93391
+30,Panamera Turbo,520hp,4.1,305,10.4,108006
+31,Panamera Turbo S,570hp,3.8,310,10.4,131152
+32,Macan,310hp,6.7,229,7.4,43553
+33,Macan S,340hp,5.4,254,9.0,45945
+34,Macan S Diesel,258hp,6.3,230,6.3,45942
+35,Macan GTS,360hp,5.2,256,9.2,55188
+36,Macan Turbo,400hp,4.8,266,9.2,62540
+37,Cayenne Diesel,262hp,7.3,221,6.8,52689
+38,Cayenne S,420hp,5.5,259,9.8,63265
+39,Cayenne S Diesel ,385hp,5.4,252,8.2,65495
+40,Cayenne S E-Hybrid,416hp,5.9,243,3.3, 64512
+41,Cayenne GTS,440hp,5.3,262,10.0,74990
+42,Cayenne Turbo,520hp,4.5,279,11.5,94603
+43,Cayenne Turbo S,570hp,4.1,284,11.5,119720

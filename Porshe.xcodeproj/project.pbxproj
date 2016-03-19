@@ -12,6 +12,12 @@
 		84CAFE321C971DA40044482C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84CAFE301C971DA40044482C /* Main.storyboard */; };
 		84CAFE341C971DA40044482C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84CAFE331C971DA40044482C /* Assets.xcassets */; };
 		84CAFE371C971DA40044482C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84CAFE351C971DA40044482C /* LaunchScreen.storyboard */; };
+		84CAFE421C971EB60044482C /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CAFE411C971EB60044482C /* Car.swift */; };
+		84CAFE461C972A890044482C /* CarCellVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CAFE451C972A890044482C /* CarCellVC.swift */; };
+		84CAFE481C9731160044482C /* csv.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CAFE471C9731150044482C /* csv.swift */; };
+		84CAFE4A1C9731580044482C /* porsche.csv in Resources */ = {isa = PBXBuildFile; fileRef = 84CAFE491C9731580044482C /* porsche.csv */; };
+		84D965061C986E3D00E2B8A8 /* porsche.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84D965051C986E3D00E2B8A8 /* porsche.mp3 */; };
+		84D965081C9873F000E2B8A8 /* PorscheDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D965071C9873F000E2B8A8 /* PorscheDetailVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +28,12 @@
 		84CAFE331C971DA40044482C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84CAFE361C971DA40044482C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84CAFE381C971DA40044482C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84CAFE411C971EB60044482C /* Car.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
+		84CAFE451C972A890044482C /* CarCellVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarCellVC.swift; sourceTree = "<group>"; };
+		84CAFE471C9731150044482C /* csv.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = csv.swift; sourceTree = "<group>"; };
+		84CAFE491C9731580044482C /* porsche.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = porsche.csv; sourceTree = "<group>"; };
+		84D965051C986E3D00E2B8A8 /* porsche.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = porsche.mp3; sourceTree = "<group>"; };
+		84D965071C9873F000E2B8A8 /* PorscheDetailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PorscheDetailVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +66,60 @@
 		84CAFE2B1C971DA40044482C /* Porshe */ = {
 			isa = PBXGroup;
 			children = (
+				84CAFE3E1C971E200044482C /* Model */,
+				84CAFE3F1C971E2A0044482C /* View */,
+				84CAFE401C971E330044482C /* Controller */,
+				84CAFE431C9723F90044482C /* Util */,
+				84CAFE441C9724070044482C /* Resources */,
 				84CAFE2C1C971DA40044482C /* AppDelegate.swift */,
-				84CAFE2E1C971DA40044482C /* ViewController.swift */,
 				84CAFE301C971DA40044482C /* Main.storyboard */,
 				84CAFE331C971DA40044482C /* Assets.xcassets */,
 				84CAFE351C971DA40044482C /* LaunchScreen.storyboard */,
 				84CAFE381C971DA40044482C /* Info.plist */,
 			);
 			path = Porshe;
+			sourceTree = "<group>";
+		};
+		84CAFE3E1C971E200044482C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				84CAFE411C971EB60044482C /* Car.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		84CAFE3F1C971E2A0044482C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				84CAFE451C972A890044482C /* CarCellVC.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		84CAFE401C971E330044482C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				84CAFE2E1C971DA40044482C /* ViewController.swift */,
+				84D965071C9873F000E2B8A8 /* PorscheDetailVC.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		84CAFE431C9723F90044482C /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				84CAFE471C9731150044482C /* csv.swift */,
+			);
+			name = Util;
+			sourceTree = "<group>";
+		};
+		84CAFE441C9724070044482C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				84D965051C986E3D00E2B8A8 /* porsche.mp3 */,
+				84CAFE491C9731580044482C /* porsche.csv */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,7 +180,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84D965061C986E3D00E2B8A8 /* porsche.mp3 in Resources */,
 				84CAFE371C971DA40044482C /* LaunchScreen.storyboard in Resources */,
+				84CAFE4A1C9731580044482C /* porsche.csv in Resources */,
 				84CAFE341C971DA40044482C /* Assets.xcassets in Resources */,
 				84CAFE321C971DA40044482C /* Main.storyboard in Resources */,
 			);
@@ -136,7 +196,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				84CAFE2F1C971DA40044482C /* ViewController.swift in Sources */,
+				84CAFE461C972A890044482C /* CarCellVC.swift in Sources */,
+				84D965081C9873F000E2B8A8 /* PorscheDetailVC.swift in Sources */,
 				84CAFE2D1C971DA40044482C /* AppDelegate.swift in Sources */,
+				84CAFE421C971EB60044482C /* Car.swift in Sources */,
+				84CAFE481C9731160044482C /* csv.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,6 +350,7 @@
 				84CAFE3D1C971DA40044482C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
